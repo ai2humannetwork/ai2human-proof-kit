@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai2human.work/schemas/verification-result.schema.json",
+  "title": "AI2Human Verification Result",
+  "type": "object",
+  "required": ["verdict", "proofHash", "reviewedAt"],
+  "properties": {
+    "verdict": {
+      "type": "string",
+      "enum": ["approved", "rejected", "needs_review", "disputed"]
+    },
+    "reviewer": { "type": "string" },
+    "score": { "type": "number", "minimum": 0, "maximum": 100 },
+    "reasons": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "proofHash": { "type": "string", "minLength": 1 },
+    "reviewedAt": { "type": "string", "format": "date-time" }
+  },
+  "additionalProperties": true
+}
+

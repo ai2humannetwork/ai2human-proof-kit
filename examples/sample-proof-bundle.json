@@ -1,0 +1,19 @@
+{
+  "proofId": "proof_example_001",
+  "taskId": "task_example_001",
+  "submitter": "0x1111111111111111111111111111111111111111",
+  "submittedAt": "2026-06-27T00:00:00.000Z",
+  "evidence": [
+    {
+      "type": "social_post",
+      "uri": "https://x.com/ai2humannetwork/status/example",
+      "hash": "0xexample",
+      "capturedAt": "2026-06-27T00:00:00.000Z"
+    }
+  ],
+  "metadata": {
+    "network": "base",
+    "source": "ai2human"
+  }
+}
+

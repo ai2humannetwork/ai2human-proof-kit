@@ -1,0 +1,13 @@
+{
+  "verdict": "approved",
+  "reviewer": "ai2human-reviewer",
+  "score": 92,
+  "reasons": [
+    "Evidence URL is reachable.",
+    "Submission matches task requirements.",
+    "No duplicate proof detected."
+  ],
+  "proofHash": "0xexample",
+  "reviewedAt": "2026-06-27T00:05:00.000Z"
+}
+

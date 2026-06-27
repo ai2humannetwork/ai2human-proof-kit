@@ -1,0 +1,10 @@
+{
+  "name": "@ai2human/proof-kit",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "test": "node src/validateProofBundle.mjs examples/sample-proof-bundle.json"
+  }
+}
+
