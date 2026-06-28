@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://ai2human.work/schemas/proof-bundle.schema.json",
+  "$id": "https://ai2human.io/schemas/proof-bundle.schema.json",
   "title": "AI2Human Proof Bundle",
   "type": "object",
   "required": ["proofId", "taskId", "submitter", "evidence", "submittedAt"],

@@ -34,6 +34,6 @@ Seed toolkit with schemas and examples. Future versions should add hash canonica
 
 ## Links
 
-- Website: https://ai2human.work
+- Website: https://ai2human.io
 - X: https://x.com/ai2humannetwork
 

@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://ai2human.work/schemas/verification-result.schema.json",
+  "$id": "https://ai2human.io/schemas/verification-result.schema.json",
   "title": "AI2Human Verification Result",
   "type": "object",
   "required": ["verdict", "proofHash", "reviewedAt"],
